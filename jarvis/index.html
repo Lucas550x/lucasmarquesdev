@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>J.A.R.V.I.S. · Assistente pessoal</title>
+  <meta name="description" content="Jarvis: assistente pessoal de voz para computador, projeto de uso privado de Lucas Marques.">
+  <style>
+    :root { --bg: #020403; --text: #C9D8D0; --white: #EEF7F2; --mint: #7CFFC4; --muted: #7F958A; --line: #16241D; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; color: var(--text);
+      background: radial-gradient(ellipse 70% 60% at 50% 30%, #07170F 0%, #030806 50%, var(--bg) 100%);
+      font: 16px/1.7 "Segoe UI", system-ui, sans-serif;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 96px 20px; text-align: center; }
+    .orb {
+      width: 120px; height: 120px; margin: 0 auto 36px; border-radius: 50%;
+      border: 1px solid rgba(124, 255, 196, 0.6);
+      box-shadow: 0 0 40px rgba(124, 255, 196, 0.25), inset 0 0 30px rgba(124, 255, 196, 0.15);
+      background: radial-gradient(circle, rgba(124, 255, 196, 0.25) 0%, transparent 60%);
+    }
+    h1 { color: var(--white); font: 400 28px/1.2 Consolas, monospace; letter-spacing: 14px; margin: 0 0 12px; padding-left: 14px; }
+    .lead { color: var(--muted); font-size: 17px; margin: 0 0 48px; }
+    ul { list-style: none; padding: 0; margin: 0 auto 48px; max-width: 520px; text-align: left; border-top: 1px solid var(--line); }
+    li { padding: 14px 4px; border-bottom: 1px solid var(--line); }
+    li strong { color: var(--white); font-weight: 500; }
+    .note { font-size: 14px; color: var(--muted); }
+    a { color: var(--mint); }
+  </style>
+</head>
+<body>
+<main>
+  <div class="orb" aria-hidden="true"></div>
+  <h1>J.A.R.V.I.S.</h1>
+  <p class="lead">Assistente pessoal de voz para computador, inspirado no Jarvis do Homem de Ferro.</p>
+  <ul>
+    <li><strong>Conversa por voz</strong> em português, com respostas faladas.</li>
+    <li><strong>Google Agenda:</strong> mostra os próximos compromissos e cria eventos e lembretes quando solicitado.</li>
+    <li><strong>Informações do dia a dia:</strong> clima, notícias, cotações, feriados e endereços.</li>
+  </ul>
+  <p class="note">Projeto pessoal de Lucas Marques, de uso privado. Não é distribuído ao público.</p>
+  <p class="note"><a href="privacidade.html">Política de Privacidade</a></p>
+</main>
+</body>
+</html>

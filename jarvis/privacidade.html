@@ -22,7 +22,7 @@
 <main>
   <div class="brand">J.A.R.V.I.S.</div>
   <h1>Política de Privacidade</h1>
-  <p class="updated">Última atualização: 29 de setembro de 2026 (inclui Gmail)</p>
+  <p class="updated">Última atualização: 30 de setembro de 2026 (inclui sincronização privada no Google Drive)</p>
 
   <p>O <strong>Jarvis</strong> é um assistente pessoal de voz para computador, desenvolvido e usado exclusivamente por seu próprio criador. Ele não é distribuído ao público nem oferecido como serviço a terceiros. Esta página explica quais dados o Jarvis acessa e como eles são tratados.</p>
 
@@ -38,12 +38,14 @@
     <li>listar e-mails (por exemplo, os não lidos) quando o usuário pede;</li>
     <li>abrir um e-mail específico para resumi-lo ao usuário.</li>
   </ul>
-  <p>O Jarvis nunca envia, apaga, move ou marca e-mails como lidos. Não apaga eventos, não acessa outros serviços do Google sem nova autorização e não usa os dados para qualquer finalidade além dessas funções.</p>
+  <p>Quando o usuário ativa a sincronização entre computadores, o Jarvis usa a <strong>pasta privada de dados do aplicativo no Google Drive</strong> (escopo <code>drive.appdata</code>) exclusivamente para armazenar e sincronizar memórias e o histórico de conversas do próprio Jarvis. Essa permissão não permite ver, editar ou apagar os arquivos pessoais do usuário no Google Drive; a pasta do aplicativo é oculta e acessível somente pelo Jarvis.</p>
+  <p>O Jarvis nunca envia, apaga, move ou marca e-mails como lidos. Não apaga eventos, não acessa arquivos pessoais do Google Drive, não acessa outros serviços do Google sem nova autorização e não usa os dados para qualquer finalidade além dessas funções.</p>
 
   <h2>Onde os dados ficam</h2>
   <ul>
-    <li>As autorizações de acesso (tokens) ficam salvas <strong>somente no computador do usuário</strong>.</li>
-    <li>O Jarvis não tem servidor próprio e não mantém cópias da agenda em nenhum banco de dados externo.</li>
+    <li>As autorizações de acesso (tokens) ficam salvas <strong>somente nos computadores do usuário</strong>.</li>
+    <li>Quando a sincronização é ativada, memórias e conversas ficam também na pasta privada do aplicativo no Google Drive para que os computadores do próprio usuário compartilhem o mesmo histórico. A sincronização pode ser desativada e os dados locais continuam disponíveis.</li>
+    <li>O Jarvis não tem servidor próprio e não mantém cópias da agenda nem do Gmail em nenhum banco de dados externo.</li>
     <li>Para responder às perguntas, o texto da conversa e os dados necessários (por exemplo, títulos e horários dos compromissos ou o conteúdo de um e-mail que o usuário pediu para resumir) são enviados ao modelo de inteligência artificial configurado pelo usuário (atualmente, a API Gemini do Google), apenas para gerar a resposta.</li>
   </ul>
 
